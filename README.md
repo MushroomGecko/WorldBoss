@@ -8,3 +8,9 @@ There are two default users; user1 and user2. user1 has the password "12345" and
 You can add new bosses or modify existing bosses by editing multi_bosses.json and single_bosses.json. Add the picture on any new bosses in the "static" directory.
 
 Passwords are salted with the salt found in salt.txt and are hashed with SHA512.
+
+
+
+
+https://github.com/MushroomGecko/WorldBoss/assets/70172740/1cc9c371-4ed5-4378-b952-16fa52c9ae91
+
