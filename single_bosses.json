@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Grimshot",
+        "path": "monster.png",
+        "health": 100
+    },
+    {
+        "name": "Monster Doodoo",
+        "path": "placeholder.png",
+        "health": 10000
+    }
+]

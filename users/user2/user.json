@@ -1,0 +1,11 @@
+[
+    {
+        "username": "user2",
+        "password": "30cec9abdaffca4e34572fa72d9a3c9fa6b9c766273542cac23648e7a0a8b41ce20b0bf6058b4139413477721d4ee2f5e5a238172cccf20a45b9ab5c45af59f4",
+        "multi_clicks": 0,
+        "single_clicks": 0,
+        "current_boss": "Grimshot",
+        "boss_health": 100,
+        "boss_path": "monster.png"
+    }
+]

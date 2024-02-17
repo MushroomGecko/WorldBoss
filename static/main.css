@@ -1,0 +1,7 @@
+.disable-dbl-tap-zoom {
+    touch-action: manipulation;
+}
+
+h3 {
+    text-align: center;
+}

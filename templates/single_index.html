@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>World Boss</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+    <h3>
+        Logged in as: {{user}}
+    </h3>
+
+    <h1>World Boss - SINGLE</h1>
+    <p>Single Clicks: <span id="user_clicks"></span></p>
+    <p>Clicks Per Sec: <span id="clicks_per_second"></span></p>
+    <p>Boss: <span id="boss_name"></span></p>
+    <p>Boss HP: <span id="boss_health"></span></p>
+    <input type="image" src="" id="boss_image" value="Click" class="disable-dbl-tap-zoom">
+
+    <form method="post" action="/">
+        <input type="submit" value="Multi" name="multi" />
+    </form>
+
+    <script src="{{url_for('static', filename='single.js')}}"></script>
+</body>
+</html>
